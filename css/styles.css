@@ -1,0 +1,128 @@
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+.foot{
+	height: 500px;
+	width: 100%
+	color:white;
+	position: relative;
+}
+
+h2{
+	color: white
+	text-align:center;
+}
+
+.intro{
+	height: 500px;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/372634/pexels-photo-372634.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.newspaper{
+	text-align: center;
+	column-count: 3;
+	color: white;
+	padding-bottom: 20px;
+}
+
+
+body{
+	background-color: #435345;
+	
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+	text-decoration-color: -moz-default-color(white);
+}
+
+.footer {
+	color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+}
+
+
+}
+
+
+@-moz-document url-prefix() {
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+input[type=text]:focus {
+    background-color: #ff0000;
+}
+
+label{
+	color: white;
+}
+
+    h1 {
+        color: red;
+        text-align: center;
+    }
+
+    body{
+    	background-color: black;
+    }
+
+.intro{
+	height: 500px;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/154508/pexels-photo-154508.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.newspaper{
+	text-align: center;
+	column-count: 4;
+	color: red;
+	padding-bottom: 20px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+
+}
+
